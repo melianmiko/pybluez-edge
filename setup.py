@@ -81,15 +81,15 @@ else:
                     % sys.platform)
 
 
-setup(name='PyBluez',
-      version='0.30',
+setup(name='pybluez-edge',
+      version='0.30-4d46ce14d9e888e3b0c65d5d3ba2a703f8e5e861',
       description='Bluetooth Python extension module',
       author="Albert Huang",
       author_email="ashuang@alum.mit.edu",
       url="http://pybluez.github.io/",
       ext_modules=ext_modules,
       packages=packages,
-      python_requires=">=3.7",
+      python_requires=">=3.10",
 # for the python cheese shop
       classifiers=['Development Status :: 4 - Beta',
                    'License :: OSI Approved :: GNU General Public License (GPL)',
