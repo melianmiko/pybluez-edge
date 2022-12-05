@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: pybluez-edge
+Version: 2022.12.5
+Summary: Bluetooth Python extension module
+Home-page: https://github.com/melianmiko/pybluez-edge
+Author: Albert Huang
+Author-email: ashuang@alum.mit.edu
+Maintainer: Piotr Karulis
+License: GPL
+Download-URL: https://github.com/melianmiko/pybluez-edge
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications
+Requires-Python: >=3.10
+Provides-Extra: ble
+License-File: COPYING
+
+Latest workimg build of https://github.com/pybluez/pybluez
+

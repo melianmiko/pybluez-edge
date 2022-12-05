@@ -82,11 +82,11 @@ else:
 
 
 setup(name='pybluez-edge',
-      version='0.30-4d46ce14d9e888e3b0c65d5d3ba2a703f8e5e861',
+      version='2022.12.05',
       description='Bluetooth Python extension module',
       author="Albert Huang",
       author_email="ashuang@alum.mit.edu",
-      url="http://pybluez.github.io/",
+      url="https://github.com/melianmiko/pybluez-edge",
       ext_modules=ext_modules,
       packages=packages,
       python_requires=">=3.10",
@@ -101,10 +101,8 @@ setup(name='pybluez-edge',
                    'Programming Language :: Python :: 3.10',
                    'Programming Language :: Python :: 3 :: Only',
                    'Topic :: Communications'],
-      download_url='https://github.com/pybluez/pybluez',
-      long_description='Bluetooth Python extension module to allow Python '\
-                'developers to use system Bluetooth resources. PyBluez works '\
-                'with GNU/Linux, macOS, and Windows.',
+      download_url='https://github.com/melianmiko/pybluez-edge',
+      long_description='Latest workimg build of https://github.com/pybluez/pybluez',
       maintainer='Piotr Karulis',
       license='GPL',
       extras_require={'ble': ['gattlib']},
