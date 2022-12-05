@@ -82,7 +82,7 @@ else:
 
 
 setup(name='pybluez-edge',
-      version='2022.12.05',
+      version='2022.12.6',
       description='Bluetooth Python extension module',
       author="Albert Huang",
       author_email="ashuang@alum.mit.edu",
